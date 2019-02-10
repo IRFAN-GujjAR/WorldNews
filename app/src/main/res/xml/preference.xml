@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ListPreference
+        android:defaultValue="@string/select_all_value"
+        android:entries="@array/country_array_labels"
+        android:entryValues="@array/country_array_values"
+        android:icon="@drawable/ic_worldwide"
+        android:key="@string/country_key"
+        android:title="@string/country_title"
+        tools:summary="United States" />
+
+
+    <ListPreference
+        android:defaultValue="@string/general_category_value"
+        android:entries="@array/category_array_labels"
+        android:entryValues="@array/category_array_values"
+        android:icon="@drawable/ic_standings"
+        android:key="@string/category_key"
+        android:title="@string/category_title"
+        tools:summary="General" />
+</PreferenceScreen>

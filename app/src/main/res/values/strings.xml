@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">World News</string>
+
+    <!--Keys for All List Preferences -->
+    <string name="country_key" translatable="false">country_key</string>
+    <string name="category_key" translatable="false">category_key</string>
+    <string name="news_sources_key" translatable="false">news_sources_key</string>
+
+    <!--Titles for All List Preferences-->
+    <string name="country_title">Select Country</string>
+    <string name="category_title">Category</string>
+    <string name="news_sources_title">News Source</string>
+
+    <!--Labels-->
+
+    <!--Labels for Country List Preference-->
+    <string name="select_all_label">Select All</string>
+    <string name="argentina_label">Argentina</string>
+    <string name="australia_label">Australia</string>
+    <string name="austria_label">Austria</string>
+    <string name="belgium_label">Belgium</string>
+    <string name="brazil_label">Brazil</string>
+    <string name="bulgaria_label">Bulgaria</string>
+    <string name="canada_label">Canada</string>
+    <string name="china_label">China</string>
+    <string name="colombia_label">Colombia</string>
+    <string name="cuba_label">Cuba</string>
+    <string name="czech_republic_label">Czech Republic</string>
+    <string name="egypt_label">Egypt</string>
+    <string name="france_label">France</string>
+    <string name="germany_label">Germany</string>
+    <string name="greece_label">Greece</string>
+    <string name="hong_kong_label">Hong Kong</string>
+    <string name="hungary_label">Hungary</string>
+    <string name="india_label">India</string>
+    <string name="indonesia_label">Indonesia</string>
+    <string name="ireland_label">Ireland</string>
+    <string name="israel_label">Israel</string>
+    <string name="italy_label">Italy</string>
+    <string name="japan_label">Japan</string>
+    <string name="latvia_label">Latvia</string>
+    <string name="lithuania_label">Lithuania</string>
+    <string name="malaysia_label">Malaysia</string>
+    <string name="mexico_label">Mexico</string>
+    <string name="morocco_label">Morocco</string>
+    <string name="netherlands_label">Netherlands</string>
+    <string name="new_zealand_label">New Zealand</string>
+    <string name="nigeria_label">Nigeria</string>
+    <string name="norway_label">Norway</string>
+    <string name="philippines_label">Philippines</string>
+    <string name="poland_label">Poland</string>
+    <string name="portugal_label">Portugal</string>
+    <string name="romania_label">Romania</string>
+    <string name="russia_label">Russia</string>
+    <string name="saudi_arabia_label">Saudi Arabia</string>
+    <string name="serbia_label">Serbia</string>
+    <string name="singapore_label">Singapore</string>
+    <string name="slovakia_label">Slovakia</string>
+    <string name="slovenia_label">Slovenia</string>
+    <string name="south_africa_label">South Africa</string>
+    <string name="south_korea_label">South Korea</string>
+    <string name="sweden_label">Sweden</string>
+    <string name="switzerland_label">Switzerland</string>
+    <string name="taiwan_label">Taiwan</string>
+    <string name="thailand_label">Thailand</string>
+    <string name="turkey_label">Turkey</string>
+    <string name="uae_label">UAE</string>
+    <string name="ukraine_label">Ukraine</string>
+    <string name="united_kingdom_label">United Kingdom</string>
+    <string name="united_states_label">United States</string>
+    <string name="venuzuela_label">Venuzuela</string>
+
+    <!--Labels For Category List Preference-->
+    <string name="general_category_label">General</string>
+    <string name="sports_category_label">Sports</string>
+    <string name="business_category_label">Business</string>
+    <string name="health_category_label">Health</string>
+    <string name="science_category_label">Science</string>
+    <string name="entertainment_category_label">Entertainment</string>
+    <string name="technology_category_label">Technology</string>
+
+
+    <!--Values-->
+
+    <!--Values For Country List Preference-->
+    <string name="select_all_value" translatable="false">select_all</string>
+    <string name="argentina_value" translatable="false">ar</string>
+    <string name="australia_value" translatable="false">au</string>
+    <string name="austria_value" translatable="false">at</string>
+    <string name="belgium_value" translatable="false">be</string>
+    <string name="brazil_value" translatable="false">br</string>
+    <string name="bulgaria_value" translatable="false">bg</string>
+    <string name="canada_value" translatable="false">ca</string>
+    <string name="china_value" translatable="false">cn</string>
+    <string name="colombia_value" translatable="false">co</string>
+    <string name="cuba_value" translatable="false">cu</string>
+    <string name="czech_republic_value" translatable="false">cz</string>
+    <string name="egypt_value" translatable="false">eg</string>
+    <string name="france_value" translatable="false">fr</string>
+    <string name="germany_value" translatable="false">de</string>
+    <string name="greece_value" translatable="false">gr</string>
+    <string name="hong_kong_value" translatable="false">hk</string>
+    <string name="hungary_value" translatable="false">hu</string>
+    <string name="india_value" translatable="false">in</string>
+    <string name="indonesia_value" translatable="false">id</string>
+    <string name="ireland_value" translatable="false">ie</string>
+    <string name="israel_value" translatable="false">il</string>
+    <string name="italy_value" translatable="false">it</string>
+    <string name="japan_value" translatable="false">jp</string>
+    <string name="latvia_value" translatable="false">lv</string>
+    <string name="lithuania_value" translatable="false">lt</string>
+    <string name="malaysia_value" translatable="false">my</string>
+    <string name="mexico_value" translatable="false">mx</string>
+    <string name="morocco_value" translatable="false">ma</string>
+    <string name="netherlands_value" translatable="false">nl</string>
+    <string name="new_zealand_value" translatable="false">nz</string>
+    <string name="nigeria_value" translatable="false">ng</string>
+    <string name="norway_value" translatable="false">no</string>
+    <string name="philippines_value" translatable="false">ph</string>
+    <string name="poland_value" translatable="false">pl</string>
+    <string name="portugal_value" translatable="false">pt</string>
+    <string name="romania_value" translatable="false">ro</string>
+    <string name="russia_value" translatable="false">ru</string>
+    <string name="saudi_arabia_value" translatable="false">sa</string>
+    <string name="serbia_value" translatable="false">rs</string>
+    <string name="singapore_value" translatable="false">sg</string>
+    <string name="slovakia_value" translatable="false">sk</string>
+    <string name="slovenia_value" translatable="false">si</string>
+    <string name="south_africa_value" translatable="false">za</string>
+    <string name="south_korea_value" translatable="false">kr</string>
+    <string name="sweden_value" translatable="false">se</string>
+    <string name="switzerland_value" translatable="false">ch</string>
+    <string name="taiwan_value" translatable="false">tw</string>
+    <string name="thailand_value" translatable="false">th</string>
+    <string name="turkey_value" translatable="false">tr</string>
+    <string name="uae_value" translatable="false">ae</string>
+    <string name="ukraine_value" translatable="false">ua</string>
+    <string name="united_kingdom_value" translatable="false">gb</string>
+    <string name="united_states_value" translatable="false">us</string>
+    <string name="venuzuela_value" translatable="false">ve</string>
+
+
+    <!--Values For Category List Preference-->
+    <string name="general_category_value" translatable="false">general</string>
+    <string name="sports_category_value" translatable="false">sports</string>
+    <string name="business_category_value" translatable="false">business</string>
+    <string name="health_category_value" translatable="false">health</string>
+    <string name="science_category_value" translatable="false">science</string>
+    <string name="entertainment_category_value" translatable="false">entertainment</string>
+    <string name="technology_category_value" translatable="false">technology</string>
+
+</resources>
+

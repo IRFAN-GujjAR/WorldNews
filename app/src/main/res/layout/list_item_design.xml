@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            tools:text="Samsung Galaxy M20 Price in India Revealed, Redmi Note 7 Pro Leaked, Nokia 8.1 6GB, and More News This Week - NDTV"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/category_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_text_view"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            tools:text="Technology" />
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/category_text_view"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/content" />
+
+        <TextView
+            android:id="@+id/content_or_description_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_view"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:maxLines="8"
+            android:textSize="14sp"
+            tools:text="Samsung Galaxy M20, Galaxy M10 price in India now official as the Galaxy M Series debuts in the country, Redmi Note 7 Pro leaks and Redmi Go announced, and a new variant of Nokia 8.1 were some of biggest stories of the week. Additionally, several new WhatsApp… [+16941 chars]" />
+
+        <TextView
+            android:id="@+id/source_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/content_or_description_text_view"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:text="Ndtv.com" />
+
+        <TextView
+            android:id="@+id/published_date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/content_or_description_text_view"
+            tools:text="20-03-2018" />
+        <TextView
+            android:id="@+id/published_time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="10:00 AM"
+            android:layout_below="@id/published_date_text_view"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

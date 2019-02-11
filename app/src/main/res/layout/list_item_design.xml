@@ -25,21 +25,11 @@
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/black" />
 
-        <TextView
-            android:id="@+id/category_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/title_text_view"
-            android:layout_marginTop="5dp"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/black"
-            tools:text="Technology" />
-
         <ImageView
             android:id="@+id/image_view"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_below="@id/category_text_view"
+            android:layout_below="@id/title_text_view"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_light"
             android:scaleType="centerCrop"

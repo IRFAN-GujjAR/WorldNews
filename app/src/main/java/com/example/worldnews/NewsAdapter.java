@@ -29,8 +29,6 @@ public class NewsAdapter extends ArrayAdapter<NewsDetails> {
         TextView titleTextView=(TextView) listView.findViewById(R.id.title_text_view);
         titleTextView.setText(currentNewsDetails.getmTitle());
 
-        TextView categoryTextView=(TextView) listView.findViewById(R.id.category_text_view);
-        categoryTextView.setText(CategoryVariableStorage.getCategory());
 
         TextView descriptionTextView=(TextView) listView.findViewById(R.id.content_or_description_text_view);
         descriptionTextView.setText(currentNewsDetails.getmDescriptionOrContent());

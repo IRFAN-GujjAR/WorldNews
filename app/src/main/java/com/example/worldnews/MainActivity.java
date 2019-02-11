@@ -105,6 +105,9 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             Intent intent = new Intent(this, SettingsActivity.class);
             startActivity(intent);
             return true;
+        }else if(item.getItemId()==R.id.refresh_menu_item){
+            progressBar.setVisibility(View.VISIBLE);
+            getLoaderManager().restartLoader(LOADER_ID,null,this);
         }
         return super.onOptionsItemSelected(item);
     }

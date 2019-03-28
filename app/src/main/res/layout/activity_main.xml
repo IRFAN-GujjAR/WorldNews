@@ -15,7 +15,13 @@
             android:layout_height="match_parent"
             android:elevation="4dp"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="World News"
+            app:logo="@drawable/ic_reporter"
+            app:titleMarginStart="25dp"
+            app:titleTextAppearance="?android:textAppearanceMedium"
+            app:titleTextColor="@android:color/black"/>
+
     </android.support.v7.widget.CardView>
 
     <RelativeLayout

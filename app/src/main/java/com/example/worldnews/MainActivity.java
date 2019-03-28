@@ -213,6 +213,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         }
     }
 
+
     @Override
     protected void onDestroy() {
         super.onDestroy();

@@ -1,7 +1,10 @@
 package com.example.worldnews;
 
+import android.app.Activity;
+import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -17,6 +20,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public final class QueryUtils {
 
@@ -57,7 +61,6 @@ public final class QueryUtils {
                 jsonResponse=readFromStream(inputStream);
             }
             else {
-
                 //
             }
         } catch (IOException e) {

@@ -20,7 +20,11 @@ and the suspension of your account.
 Me, the author of the project, allow you to check the code as a reference, but if
 you submit it, it's your own responsibility if you get expelled.
 
+License
+=======
 Copyright (c) 2019 IRFAN GujjAR
+
+    http://www.apache.org/licenses/LICENSE-2.0
 
 Besides the above notice, the following license applies and this license notice
 must be included in all works derived from this project.

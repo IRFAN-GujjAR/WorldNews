@@ -11,7 +11,7 @@ This sample uses the Gradle build system. To build this project, use the
 
 PROJECT LICENSE
 
-This project was created by IRFAN GujjAR as part of the Android Basics Nanodegree At Udacity.
+This project was created by IRFAN GujjAR as part of the Android Basics Nanodegree (Free Program) At Udacity.
 
 As part of Udacity Honor code, your submissions must be your own work, hence
 submitting this project as yours will cause you to break the Udacity Honor Code

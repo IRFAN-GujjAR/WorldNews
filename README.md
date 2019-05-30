@@ -21,7 +21,7 @@ Me, the author of the project, allow you to check the code as a reference, but i
 you submit it, it's your own responsibility if you get expelled.
 
 License
-=======
+-------
 Copyright (c) 2019 IRFAN GujjAR
 
     http://www.apache.org/licenses/LICENSE-2.0

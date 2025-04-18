@@ -1,7 +1,7 @@
 World News App
 ===================================
 
-This app displays the latest news by JSON parsing the "https://newsapi.org/" api.
+This app displays the latest news by using the "https://newsapi.org/" api.
 
 **App Screenshots**
                                   
